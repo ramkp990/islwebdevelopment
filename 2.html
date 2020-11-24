@@ -1,0 +1,292 @@
+<html>
+<head>
+
+
+  <title>ISLRTC ISL Signs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<script>
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList button").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+
+<body>
+
+<div class="withbng">
+<div class="container">
+  <h2>ISL Signs</h2>
+  <p>Type something in the input field to search the list for specific items:</p>
+  <input class="form-control" id="myInput" type="text" placeholder="Search in B...">
+  <br>
+<div class="iconsright">
+  <a href="index.html">A</a>
+  <a href="3.html">C</a>
+  <a href="4.html">D</a>
+  <a href="5.html">E</a>
+  <a href="6.html">F</a>
+  <a href="7.html">G</a>
+  <a href="8.html">H</a>
+  <a href="9.html">I</a>
+  <a href="10.html">J</a>
+  <a href="11.html">K</a>
+  <a href="12.html">L</a>
+  <a href="13.html">M</a>
+  <a href="14.html">N</a>
+</div>
+
+<div class="iconsleft">
+  <a href="15.html">O</a>
+  <a href="16.html">P</a>
+  <a href="17.html">Q</a>
+  <a href="18.html">R</a>
+  <a href="19.html">S</a>
+  <a href="20.html">T</a>
+  <a href="21.html">U</a>
+  <a href="22.html">V</a>
+  <a href="23.html">W</a>
+  <a href="24.html">X</a>
+  <a href="25.html">Y</a>
+  <a href="26.html">Z</a>
+  <a href="27.html">#</a>
+</div>
+
+
+ <div class="list-group" id="myList">
+ <button type="button" class="list-group-item list-group-item-action disabled" >B</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LKyBt6Px1Uc">back</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TDlj5kHwiTk">back, behind sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0Kcn-1OPd84">back, go back, reverse sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cj56UIvObV8">back, return sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zgQAKKtXOZY">background</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/eJ8Brka8TKw">bad language, verbal abuse sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xghJ6vKFuKQ">bad language, verbal abuse sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/l8lwU4wIOz4">bad sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/9uSE_BJx1Po">bad sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yqRuuOhG1Cs">bag</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GGK97cywvBc">bag, backpack</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/aTp3Y4ABxB4">bag, sling bag</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LY6maLw5JZg">bajaj bike</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RpZGZHEgtYI">bake</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/G-xw6dwoiBc">balance</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Id-oKWnrMao">balcony</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yjnm43fEimY">ball</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BSJyINZgfWY">ball cricket</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ndCTFD1P_qo">balloon sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wzz6Gt0EotA">balloon sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TrCMG8Jm2_c">bamboo</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MZsQzU7tOfs">ban sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/apdZVZdwz54">ban sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GYVZ3VpzJRI">banana</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/YcTowX_Es6E">banana tree</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UOktZawGna4">band aid</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/S9wg2vb8-Aw">bandage</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cNL6z2IayOU">bandra to worli sea link</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MBJe-opDrVg">banker</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fmW1matLfhk">barber</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Ps4VoPyMAb8">baseball</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-UjDGBnJuQE">basic sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_jbbOFSVFyY">basil</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ZwVF0XfVD7I">bath sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/8r5QmLFv9Jc">bath tub</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5rku2NSGq94">bathroom</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/W0VSNIUgNVw">bear, endure, tolerate sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DCH3d-S6BlI">bear, endure, tolerate sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zE5flYdW0w0">beat around the bush</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/hG7jqJgpYzI">beat, triumph, outdo, be victorious sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5vj022EoOLA">beat, triumph, outdo, be victorious sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QJDOHjM9eb8">beautiful sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pxP6gH5pazw">beautiful sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/aCaG3G4PAkQ">bedroom</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/R_GaklgD4bY">beer sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RfTlPy0yoLg">beer sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BWKieNmLY2c">beer sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PKLiUylI7jY">beetroot</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pwmFabvAS3k">before sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1aZYCh3HDZY">before sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/M5d-xq3xJi4">behaviour, conduct, manner</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zHSDpV4Ok2Q">behind sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TtNpydFV6rI">behind sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_lF0BZafFlw">belgium</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tPNg2Waa57k">believe</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/otXF356rVzQ">bell sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xwgkeViNOwI">bell sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Pu9zSjEsqnk">bell sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Tf97LjJhrMU">below</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MpOh9MQvWbY">belt</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SnUlY4XhAG0">benefit, profit, gain</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WOUQtem-BE0">bengali</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TRgM0lzJs-4">best sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-oJL0D3n2e0">best sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_deTkHwvwhc">best sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/f9rCwRfIxKw">better</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LlAJbMbtUyA">better late than never</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_gdCYZeEcTY">between, in the middle sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tnMi73_WfPg">between, middle sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BqgTzj7IeZ0">bhubaneswar</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/W6k4SdELuOA">bib</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BFYTOi2N1w8">big</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RjDvvpbDcHk">bihar</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wx8pMHRIYho">bike, motorcycle sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XAvOgSgdGDA">bike, motorcycle sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ldoR2f3W4co">bike, motorcycle sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/AJyoUbv1lzs">bilingual</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TPdAyuJYQtE">bill sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/kAIC79Ubl_g">bill sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xTQHYVNuH2I">bindi</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mKxgmzevEio">birds</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jTfDQvOdKU0">birds of a feather flock together</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/T41OsrviQCY">birthday</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/50A9vnIaQNE">biscuit</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/N0bpk_dzCuk">bite</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EREEJ9_rFgs">bite the bullet</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mRodiqQBduE">bitter gourd</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VMsWda7pWZA">black</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bz6nldNgnjU">blackberry</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GlsK0Ejjyhg">blackboard duster sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/c4Nn0I-C4gY">blackboard duster sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/KhHs-1AePDw">bless</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GZagTSm_qhM">blinds, shade</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/gLH8E10Xex8">blocks</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_z-Ry3er2_k">blood</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WSEFp-h4Vk0">blood pressure sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-JcpfOHc0nE">blood pressure sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wPsIxhPHXBo">blouse sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/n9F3-JF1Dug">blouse sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Ykt6OXbw1q0">blue</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/syeNmftfElg">bluetooth</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LdYbstdYCR8">bmw</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xD3S5OUhSRs">boat</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Bl_SheTtSt0">body</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zHuGuas_2f8">body pain</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/c5txohM_Pv8">body parts</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WDHSvLNLkdM">body piercing</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jLr6GA-anhg">bone</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/iCZL3lk119A">book</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jAoBr9XABdo">bookcase, bookshelf</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jAoBr9XABdo">bookcase, bookshelf</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/R-IpftpYr2g">bored, uninterested</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/iqlb1r9YIAc">born</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HLngaK2mDAo">bosnia herzegovina</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/kusWSSN4xjI">boss</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RpLX2iGqahI">both, couple, pair</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Rc_b4h5nFqo">bottle</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/doWXendPFc0">bowl sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sj8kYLtXNZU">bowl sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0lrX7s_3ScY">bowled out cricket</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oRJn3LprR4U">bowler cricket</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OC7HHIF25ik">box</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/s5AMrNjoP0Q">boxing</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/T8g7H3Ie5YU">boyfriend</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Idb2wQQ85ho">brahma</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OELaDZo5R7I">brain sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/x7SV2p_-rPE">brain sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/O2_3lA8kVVE">brain sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DQg2gfZHQ_0">branch, subdivision, classification</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/6nKQbhX9QHo">brave, bold, courageous, strong</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lsp2o-yBY10">brazil</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MNCeezFR_YI">bread</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tZ3oGQh9Uqo">break a leg</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XeH2cAIz9as">break the ice</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/P58pF-HenyU">break, pause, time out</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/eRr2PaNsu9U">break, sever, split</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LeRzzzBBsmU">bribe, graft</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Rloiqc9KybA">brick</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/v_BzLSp7PLM">bride</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Jedn1-9fyXw">bridegroom, groom</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/h6LSVGsUiRA">briefcase</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/j6OV1PtEOxk">briefcase (sign 1)</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BdgJFU-X4i0">briefcase (sign 2)</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7P9YL1tEnVs">bright</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/woQgNTk9IIE">brinjal, eggplant</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Z1du80pIIo0">brochure</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_XI-ZBIFNdU">broom sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LVoWdSuY_DA">broom sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0-pxIcGvk3w">brown</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yLpc_-hWZAA">bsnl</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/08z_-ESgSP0">bucket</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3v5Id7dDttk">buddha purnima</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/M0bcUWG8vrg">buddha statue, hyderabad</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Zgt1aed1imY">buddhism, buddhist sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Ot-XctUkMY8">buddhism, buddhist sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ADOlYPfw_T8">budget, funds</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/R6tI8RpU0Nc">buffalo</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nGk01dUfQo0">buffalo sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/I4pibKfr0jU">buffalo sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_OCCVPF3icI">buffalo sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oQhxACPhL1k">buffet</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/s6BX-UjWPDQ">buffet example</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7n50MsM5c7A">bugle</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Uuid3jSp7Wc">bugs bunny</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UtIn2Jira9w">builder</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Oql_D1R8kVE">building structure</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TickiRU7XxU">bulb</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/luz_2YSCBc0">bull</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/luz_2YSCBc0">bull</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/o9vIJZ9h9dQ">bullet train</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Co43JcIz_Wo">burden</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vVylNakRi6s">burden, overload, strain</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TK3H8rmoV1Q">burger</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/KoMeOserJ2M">burn</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7c7A8VNHDg0">burundi</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cigrNp7NbVY">bury</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QmCEr-G9Nug">bus conductor</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HufgJPpb1kQ">bus sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/I9OiCuVT6TQ">bus sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vt86EMAaXHM">business sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/8wI11m_OvYo">business sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/C-rIgD-yIvg">busy</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/u3556HSSZS8">by the skin of one's teeth</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/O6YJgD20e2g">bye, goodbye</button>
+  </div>
+
+
+
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <ul>
+    <li><a href="index.html" class="prev"> < Prev</a></li>
+    <li class="pagenumber active"><a href="2.html"> 2 </a></li>
+    <li class="pagenumber"><a href="3.html"> 3 </a></li>
+    <li class="pagenumber"><a href="4.html"> 4 </a></li>
+    <li class="pagenumber"><a href="5.html"> 5 </a></li>
+    <li class="pagenumber"><a href="6.html"> 6 </a></li>
+    <li class="pagenumber"><a href="7.html"> 7 </a></li>
+    <li><a href="3.html" class="next"> Next > </a></li>
+  </ul>
+</footer>
+</html>

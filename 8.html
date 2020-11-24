@@ -1,0 +1,159 @@
+<html>
+<head>
+
+
+  <title>ISLRTC ISL Signs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<script>
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList button").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+
+<body>
+
+<div class="withbng">
+<div class="container">
+  <h2>ISL Signs</h2>
+  <p>Type something in the input field to search the list for specific items:</p>
+  <input class="form-control" id="myInput" type="text" placeholder="Search in H...">
+  <br>
+  <div class="iconsright">
+    <a href="index.html">A</a>
+    <a href="2.html">B</a>
+    <a href="3.html">C</a>
+    <a href="4.html">D</a>
+    <a href="5.html">E</a>
+    <a href="6.html">F</a>
+    <a href="7.html">G</a>
+    <a href="9.html">I</a>
+    <a href="10.html">J</a>
+    <a href="11.html">K</a>
+    <a href="12.html">L</a>
+    <a href="13.html">M</a>
+    <a href="14.html">N</a>
+  </div>
+
+  <div class="iconsleft">
+    <a href="15.html">O</a>
+    <a href="16.html">P</a>
+    <a href="17.html">Q</a>
+    <a href="18.html">R</a>
+    <a href="19.html">S</a>
+    <a href="20.html">T</a>
+    <a href="21.html">U</a>
+    <a href="22.html">V</a>
+    <a href="23.html">W</a>
+    <a href="24.html">X</a>
+    <a href="25.html">Y</a>
+    <a href="26.html">Z</a>
+    <a href="27.html">#</a>
+  </div>
+
+
+
+  <div class="list-group" id="myList">
+  <button type="button" class="list-group-item list-group-item-action disabled" >H</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4AsMLGsdRvo">habit</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4AsMLGsdRvo">habit</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/y-bSGi85wc0">hail</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/FTNGNvDqp-g">hair</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GSMQDwI83aI">hair clip</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/qoMWB2o9jfE">hair dryer sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MflJey4lrQk">hair dryer sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/AApcKicSfHU">haji ali dargah</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SrreYeqYuAI">half</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SrreYeqYuAI">half</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/STJ38FSDE8w">half, part</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EgnE1hPwGRs">hand cymbals manjira</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/VgrQMDa1vlI">hand sanitizer</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HqsZI1n6pGU">handkerchief</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/o68UYF2jW_o">handpump water</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ibTYqJp5cJ4">hands</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/x53QBItEZsk">hang in there</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/f5Tm6pDk9hQ">hanger</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OF-9aiQTAfM">hanuman sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zSGR1KaSZV4">hanuman sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/qHLMtiGhSBQ">happen</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/qHLMtiGhSBQ">happen</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/p9SdpeHMkZ0">happy</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sMdon0OffjU">harass, bully</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bDA6y9S2bb4">hard (sign 1)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/96JTPuAvmno">hard (sign 2)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cApvRkBL8e0">hard disk, hard drive sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1SkZMNfDITQ">hard disk, hard drive sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zCxpIYc_Qxg">hard of hearing</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zCxpIYc_Qxg">hard of hearing</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/39tZrKjvdQM">hard, difficult</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vB-4jZVx0yU">hard, solid, rigid, inflexible</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/NjT3zasZLP0">harmonium</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ONhI6iem9kg">hat</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EE1cuwsn1IY">hate</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BsV0h0Xunak">have</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BsV0h0Xunak">have</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lLd__AgPs98">he</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sWKP1r9ykRQ">head</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/AaHFB_q7AO0">headache</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/gQ_YY5vF99k">hear eg  news</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0uvuluJqqAM">hear, listen sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0QITb6bNnHc">hearing</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zyvgHgT6d7c">heart, love romantic</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/aZ7FPq71eII">heavy</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lWdpf_aCdL8">his</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yub8BWnxr8I">honest (sign 1)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rscLSkif8cc">honest (sign 2)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QKGPOi8rZ-E">hospital</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xm2Vju9w0-I">hotel</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WaYyPwTPsY4">hug</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yZlMisXPUms">humid</button>
+   </div>
+
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <ul>
+    <li><a href="7.html" class="prev"> < Prev</a></li>
+    <li class="pagenumber active"><a href="8.html"> 8 </a></li>
+    <li class="pagenumber"><a href="9.html"> 9 </a></li>
+    <li class="pagenumber"><a href="10.html"> 10 </a></li>
+    <li class="pagenumber"><a href="11.html"> 11 </a></li>
+    <li class="pagenumber"><a href="12.html"> 12 </a></li>
+    <li class="pagenumber"><a href="13.html"> 13 </a></li>
+    <li><a href="9.html" class="next"> Next > </a></li>
+  </ul>
+</footer>
+</html>

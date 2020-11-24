@@ -1,0 +1,225 @@
+<html>
+<head>
+
+
+  <title>ISLRTC ISL Signs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<script>
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList button").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+
+<body>
+
+<div class="withbng">
+<div class="container">
+  <h2>ISL Signs</h2>
+  <p>Type something in the input field to search the list for specific items:</p>
+  <input class="form-control" id="myInput" type="text" placeholder="Search in C...">
+  <br>
+  <div class="iconsright">
+    <a href="index.html">A</a>
+    <a href="2.html">B</a>
+    <a href="4.html">D</a>
+    <a href="5.html">E</a>
+    <a href="6.html">F</a>
+    <a href="7.html">G</a>
+    <a href="8.html">H</a>
+    <a href="9.html">I</a>
+    <a href="10.html">J</a>
+    <a href="11.html">K</a>
+    <a href="12.html">L</a>
+    <a href="13.html">M</a>
+    <a href="14.html">N</a>
+  </div>
+
+  <div class="iconsleft">
+    <a href="15.html">O</a>
+    <a href="16.html">P</a>
+    <a href="17.html">Q</a>
+    <a href="18.html">R</a>
+    <a href="19.html">S</a>
+    <a href="20.html">T</a>
+    <a href="21.html">U</a>
+    <a href="22.html">V</a>
+    <a href="23.html">W</a>
+    <a href="24.html">X</a>
+    <a href="25.html">Y</a>
+    <a href="26.html">Z</a>
+    <a href="27.html">#</a>
+  </div>
+
+
+<div class="list-group" id="myList">
+<button type="button" class="list-group-item list-group-item-action disabled" >C</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5JrVqdElpw4">cabbage</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/a3ZwnyHdlGI">cage</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xY-hLKnjahw">calculator sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/p9bBKmmXvkY">calculator sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Azhplpvwi6Q">calculator sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1wmnjSPpUHs">calculator sign 4</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lYS6WVGPAWo">calendar sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rRVnNmQOR-I">calendar sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/8EF9j5VqHzw">calendar sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/um4s1H6JPJg">call</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GNigEuAKJt0">call it a day</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GiOVSFEP2UQ">call phone</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bdHi2Gyruqw">calm</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QIaK1zBDLkE">cambodia</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Cz3KCbolavI">camel</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/A7GtKqvxPNA">can sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/M5ML0oF4VzU">can sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/E7ASHBd0kDs">canada</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/-kAnMQUsNqY">cancel, call off</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DAhaM4E1wSM">candle</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/W1JjuXkqfyA">canteen</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wVgslraD204">cap</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/37i_Xt_w0Rs">capable</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/8G5NgkTRK8s">capital</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/s57mcqROvtA">capital finance</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rKDZTG2rFPs">capital sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/64Cdgzetaxs">capital sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Py0R_2XywOQ">capsicum sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/kjF2AUzUKO0">capsicum sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SUGgjeP54CQ">car</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yi--S0oh64s">careful</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Y0JhQ12-JVE">careless, negligent</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/AQ_ba6r2-YM">carpenter (sign 1)</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/p0IHOoCCGNU">carpenter sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bp9mzPexxVY">carpenter sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/9pEAebpmkS0">carpet</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ArcfZOVJyc4">carrom</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UMMYGhp1SD4">carrot</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BI57SSk_cGU">cartoon</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/G1kA8fiQM3Q">cartoon meaning</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zaCXh7eQO2Y">cash, notes</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/w49chg-Y92g">cashier</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/N0QNiLrVGl4">casio</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Rc4vFhGRgIs">cat sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wubfL2VbBLY">cat sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/YGISt7qQBCw">catalogue</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/JYvB-eiJP-I">catch a person, a mistake</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mUes7TvTZ0Y">catch things, example, ball</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/JFVB97UDh6o">category</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TJQdtS0Dkyw">category, classification, group, section</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/h8PX8tmC6D0">cave</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/9BvwAQ7c9-c">cd</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Y0ObDf8ZmJ0">celebrate, enjoy</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/h8cX3gzzey8">cell, mobile sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EkK_DEi9vog">cell, mobile sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pcMAg0w93W0">cell, mobile sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/TkZ8qS_TIXk">cell, mobile touchscreen</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/f06TttdeYNE">centimetre</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HE7cOw_O6cA">century meaning</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bFEz8r3xfMI">chalk sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/daRWg-gnW7M">chalk sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rufhjKU3UII">chandigarh</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/NGfUhD-kG1M">change</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Miw0xZr0diU">chapati, roti</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Kt4-ijSTM58">chart</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mJz4mKTtt64">cheap talk, behaviour, etc</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zWdWqozClE4">chef</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/748qVYC4N1s">chennai sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Il9Z5pMnfDo">cheque sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/6y6ylBP0yc8">cheque sign 2</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/KnE_y9wziOc">cherry sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sFjn3cTFUT4">chhattisgarh</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/eAFoZUaOwac">chickpea</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/dRZkuKTLcis">chief minister</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_GG3jvZWj_4">chikoo</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ZM95iphl6eM">chile</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UK3lCFwSt7A">chilli sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/uYfcQkRSvAY">china</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/iP15-5bXA-k">collect</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Wv59G4v5X2Y">colour (sign 1)</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rJbc69qxPDA">colour (sign 2)</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XI4MKE3j4no">communicate</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/YjwubIqJ_K0">concept</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sQOf_Y2WwX8">conclude</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/870f18p-XdE">conserve, preserve, save</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/E79Kez92aqs">constant, continuous</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Kx46yWsDfrU">construct, build</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/57wK5eB74gw">consultant</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tnQmQCzJKfI">continue, carry on</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OJqZgTGpghQ">contract, agreement, deal, pact</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/CjL55F1EpNk">contract, contractual job</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/QgR6EvtxqOI">control</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0n_FeKAXjUI">control, manage</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/U8aIoaNXadQ">convert, change, transform</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Csudbq04CV0">cook</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BdQCN4niLds">cooker</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/vSEUaTn35j4">copy and paste</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/CKkHv_YeHWU">corn</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/g_vVWW-3sUM">corner</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/mh7hK_GB1yQ">cottage cheese, paneer</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Qb3nTAfOz2Q">country</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oZ6x75IBNj8">course, programme</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/o-7xuKFWoF8">criticize</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/r-bhTY7mHsY">crocodile</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/y_q_egfFoq0">crowd, horde, mass, throng</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3FhNDV9UDzc">cruel, brutal, inhuman, ruthless, cold hearted</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/u6hpIkJUQXE">cruel, callous, harsh, ruthless sign 1</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cKkCZ_GYpkk">cry, bawl, scream</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SyRmYT523cU">cry, sob sign 3</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lsktkekGRCY">culture</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/t-WLfG2atlo">cup</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/xME_nU2gOBk">cupboard</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wK7Y3bBPwtI">curd</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_ZPRMHiOhug">cure</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/c8Wz5tFDJSM">curtain</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HTbNR5mBC3E">cut corners</button>
+<button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/N4NevefkpsQ">cycle</button>
+ </div>
+
+
+
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <ul>
+    <li><a href="2.html" class="prev"> < Prev</a></li>
+    <li class="pagenumber active"><a href="3.html"> 3 </a></li>
+    <li class="pagenumber"><a href="4.html"> 4 </a></li>
+    <li class="pagenumber"><a href="5.html"> 5 </a></li>
+    <li class="pagenumber"><a href="6.html"> 6 </a></li>
+    <li class="pagenumber"><a href="7.html"> 7 </a></li>
+    <li class="pagenumber"><a href="8.html"> 8 </a></li>
+    <li><a href="4.html" class="next"> Next > </a></li>
+  </ul>
+</footer>
+</html>

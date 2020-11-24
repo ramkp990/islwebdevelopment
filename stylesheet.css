@@ -1,0 +1,102 @@
+body
+{
+  background-image: url(back2.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background: #8B0000;
+}
+ul
+{
+  position: relative;
+  background: #fff;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+ul li
+{
+  list-style: none;
+  line-height: 50px;
+  margin:0 5px;
+}
+ul li.pagenumber
+{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+ul li a
+{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-weight: 600;
+  border-radius: 50%;
+}
+ul li.pagenumber.active a
+{
+  background: #333;
+  color: #fff;
+}
+ul li.pagenumber:hover a
+{
+  background: #333;
+  color: #fff;
+}
+.iconsright{
+  position: fixed;
+  top: 10%;
+  left: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding:  19px 60px;
+}
+.iconsright a
+{
+  padding: 10px;
+  font-size: 22px;
+  background-color: #000000;
+  color: white;
+  margin: 2px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 60%;
+}
+.iconsright a:hover
+{
+  transform: translate3d(0px,10px,0px);
+}
+.iconsleft{
+  position: fixed;
+  top: 10%;
+  right: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding:  19px 60px;
+}
+.iconsleft a
+{
+  padding: 10px;
+  font-size: 22px;
+  background-color: #000000;
+  color: white;
+  margin: 2px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 60%;
+}
+.iconsleft a:hover
+{
+  transform: translate3d(0px,10px,0px);
+}

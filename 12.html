@@ -1,0 +1,188 @@
+<html>
+<head>
+
+
+  <title>ISLRTC ISL Signs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<script>
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList button").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+
+<body>
+
+<div class="withbng">
+<div class="container">
+  <h2>ISL Signs</h2>
+  <p>Type something in the input field to search the list for specific items:</p>
+  <input class="form-control" id="myInput" type="text" placeholder="Search in L...">
+  <br>
+  <div class="iconsright">
+    <a href="index.html">A</a>
+    <a href="2.html">B</a>
+    <a href="3.html">C</a>
+    <a href="4.html">D</a>
+    <a href="5.html">E</a>
+    <a href="6.html">F</a>
+    <a href="7.html">G</a>
+    <a href="8.html">H</a>
+    <a href="9.html">I</a>
+    <a href="10.html">J</a>
+    <a href="11.html">K</a>
+    <a href="13.html">M</a>
+    <a href="14.html">N</a>
+  </div>
+
+  <div class="iconsleft">
+    <a href="15.html">O</a>
+    <a href="16.html">P</a>
+    <a href="17.html">Q</a>
+    <a href="18.html">R</a>
+    <a href="19.html">S</a>
+    <a href="20.html">T</a>
+    <a href="21.html">U</a>
+    <a href="22.html">V</a>
+    <a href="23.html">W</a>
+    <a href="24.html">X</a>
+    <a href="25.html">Y</a>
+    <a href="26.html">Z</a>
+    <a href="27.html">#</a>
+  </div>
+
+
+
+  <div class="list-group" id="myList">
+  <button type="button" class="list-group-item list-group-item-action disabled" >L</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DTcLYt9C3r4">l</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/n5wsSzoijZs">lake</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Q5jhvwFPAWI">lakh</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RhB1ZDQz_hQ">land</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/sbeWRcvt8FM">language</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2v0aR0Wh0H0">laptop</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nyinwfSteEk">last</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/cjtrtWYiohM">late (sign 2)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3Hima0QoMkA">late (sign 3)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5a-pS8BvLQo">law (sign 1)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UN-ABimhYV8">law (sign 2)</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/M3Aomqke0-Q">lawyer</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fp-a01l8XFo">lazy</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HfZAqFFekl0">lead</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fKwQPZnzJCg">lenovo</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/GZi36Nr1AXk">lentils</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DD1yE1dqjlU">less</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/F9JOa0fXPI4">less, few</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/7lcNAWEHBmA">let someone off the hook</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/a4hj7imNy64">let the cat out of the bag, spill the beans</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/71MQl0F0_No">letter</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Bc_Km33uz74">level sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lZt6lnBA9Gc">level sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EvwF_HCmPxY">lg mobile</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/gnQLgdWLk0c">liberia</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Y0G5Sqs-lYw">librarian</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/v3hY00Fy7rE">library</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Zb_TG66NcQM">libya</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/NCY_EJYnkPw">license</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ArrUPiaqzHA">license sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/x-uAyPToZMs">license sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/uOs0878HhR4">license sign 3</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/XFG6tJjEar8">lie, false</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UPBonZ_8HIM">life</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/wKDAEDyBAY0">life jacket meaning</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OSRpGh3d0cI">lifelong, long term</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/fGyKwTrS88U">lift sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nkox-ajvLnc">lift sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nWsRyI0iqEQ">lift sign 3</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Pq-OLkv13Bw">light electricity</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/i_zyHcuPs6s">light less weight</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/N6DxyKcaZVs">lighthouse</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/bbWDUkaUXLE">lightning</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/T9eBnmIRtqg">like</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tnVIXgNQWyM">limit</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tnVIXgNQWyM">limit</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1TiirpYN_W8">line</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/lypZOubhfds">link, connect, associate</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RhEpVt-AEK8">lion</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/zSst5y5j_fI">lips</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/kKCEuKZ3lV0">list sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/4BNqHj-lQaE">list sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LH_-eRo-vYw">list, points sign 3</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/f1U4dYb9r0A">listen sound</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Tfxp43vVHpY">listen visual</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/HnydoJ4McR8">litre</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/s3oDJ7TP72M">little</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RPzCiRXVcr8">little, meager</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ea8VG_U1OM4">live</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/rbu6XJFG-uI">livelihood sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MFWHZG1Xnr4">livelihood sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Cgk-fX-KFhw">livelihood sign 3</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/CDd6olbtjWE">local</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WKgIi8YdHtI">local train</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ZcVzjZeVwj0">lock</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/MyBiN1FWZjY">logic</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/prb13TWFfLY">logic, rationale</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/UPh2mJTMLIQ">lollipop</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5FNn50ch6Fc">lonely</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/u7dV3wCpaqM">lonely, isolated, alone</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0EiwsY7ofnA">long</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ZaBfhzfL_II">long jump sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/oEegSY9O_AI">long jump sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/x4rnI3mWpbM">look</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WlhFpHM7lYY">look, gaze, see</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/0xVWH6F3Fz0">lose</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/S_Dj4XBbbzM">lotus temple</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/tP9prhYZzw8">luck</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/RwIFUiFGMGw">luck sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1vpIZUFKZpQ">lunch</button>
+   </div>
+
+
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <ul>
+    <li><a href="11.html" class="prev"> < Prev</a></li>
+    <li class="pagenumber active"><a href="12.html"> 12 </a></li>
+    <li class="pagenumber"><a href="13.html"> 13 </a></li>
+    <li class="pagenumber"><a href="14.html"> 14 </a></li>
+    <li class="pagenumber"><a href="15.html"> 15 </a></li>
+    <li class="pagenumber"><a href="16.html"> 16 </a></li>
+    <li class="pagenumber"><a href="17.html"> 17 </a></li>
+    <li><a href="13.html" class="next"> Next > </a></li>
+  </ul>
+</footer>
+</html>

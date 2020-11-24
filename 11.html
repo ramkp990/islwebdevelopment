@@ -1,0 +1,154 @@
+<html>
+<head>
+
+
+  <title>ISLRTC ISL Signs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+<script>
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList button").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+</head>
+
+<body>
+
+<div class="withbng">
+<div class="container">
+  <h2>ISL Signs</h2>
+  <p>Type something in the input field to search the list for specific items:</p>
+  <input class="form-control" id="myInput" type="text" placeholder="Search in K...">
+  <br>
+  <div class="iconsright">
+    <a href="index.html">A</a>
+    <a href="2.html">B</a>
+    <a href="3.html">C</a>
+    <a href="4.html">D</a>
+    <a href="5.html">E</a>
+    <a href="6.html">F</a>
+    <a href="7.html">G</a>
+    <a href="8.html">H</a>
+    <a href="9.html">I</a>
+    <a href="10.html">J</a>
+    <a href="12.html">L</a>
+    <a href="13.html">M</a>
+    <a href="14.html">N</a>
+  </div>
+
+  <div class="iconsleft">
+    <a href="15.html">O</a>
+    <a href="16.html">P</a>
+    <a href="17.html">Q</a>
+    <a href="18.html">R</a>
+    <a href="19.html">S</a>
+    <a href="20.html">T</a>
+    <a href="21.html">U</a>
+    <a href="22.html">V</a>
+    <a href="23.html">W</a>
+    <a href="24.html">X</a>
+    <a href="25.html">Y</a>
+    <a href="26.html">Z</a>
+    <a href="27.html">#</a>
+  </div>
+
+
+
+  <div class="list-group" id="myList">
+  <button type="button" class="list-group-item list-group-item-action disabled" >K</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/YfbeV360wAA">kajal</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/BYY1nIP7J-E">kali mata sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/X-yEakgxzbs">kali mata sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/nbVI64uJFks">kannada sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WuoR5g21H1Q">kannada sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EvZvymz1nRo">karate</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/KyAcip_a8Lg">kareena kapoor khan</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2tp3AspW6TA">karnataka</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ofZ6Jo2XUn8">kathakali</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/N0-cIcGCH3A">kazakhstan</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/yQsI7JWeaR0">keep</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/JjDVZDpPjbc">keep, hold, retain, store</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Rs0EKMMQqPI">kenya</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/PemmRc-BA94">kerala</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/FathKZe6_LI">key</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/x3nuREvEwis">kick out, eject sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/dT9dCqGuDCE">kick, eject, fire from job sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LvSsVxL2gS8">kidnap</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LvSsVxL2gS8">kidnap</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5abyQsJRQIY">kidney beans sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/3WEkK4AaiV4">kidney beans sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/ddpIUqF0dEg">kill, murder sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/pCBCoT-2Bb4">kill, murder sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EKp6wIukZRc">kilogram</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5RD0XpWkclQ">kilometre</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/DTOsm_OuWLM">kind, kindhearted</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/kEMFrD53l6E">king</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/LUZ-fo_p2eM">kiss</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EzA7vpG_mnw">kitchen</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/EzA7vpG_mnw">kitchen</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/iLrSnUDmfC4">kite</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2-6FnMinc3U">knife sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/uHAhEiTlj_M">knife sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/WdBygG07nkU">knife sign 3</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/5c0M_nkTsmg">knock</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/jTBahbE4_OY">know</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/1G3VZ_HWTWI">knowledge, expertise</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/n4ITD16-c9Q">kochi cochin</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/Vc0YkcqRNAM">kohima</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/_mAt07ZKGeg">kolkata calcutta</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/o610N3lN8Zo">konark sun temple</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/SHsq8VSKV_M">korea</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/26vEFQYbzvc">krishna</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/OXmN5c7MCUk">kumbh mela sign 1</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/chPdC6gwibQ">kumbh mela sign 2</button>
+ <button type="button" class="list-group-item list-group-item-action video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/2XbRuRKOfRE">kuwait</button>
+   </div>
+
+
+ <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <ul>
+    <li><a href="10.html" class="prev"> < Prev</a></li>
+    <li class="pagenumber active"><a href="11.html"> 11 </a></li>
+    <li class="pagenumber"><a href="12.html"> 12 </a></li>
+    <li class="pagenumber"><a href="13.html"> 13 </a></li>
+    <li class="pagenumber"><a href="14.html"> 14 </a></li>
+    <li class="pagenumber"><a href="15.html"> 15 </a></li>
+    <li class="pagenumber"><a href="16.html"> 16 </a></li>
+    <li><a href="12.html" class="next"> Next > </a></li>
+  </ul>
+</footer>
+</html>
